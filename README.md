@@ -25,6 +25,14 @@ macOS app for generating Xcode `AppIcon.appiconset` folders from a single 1024 x
 
 The project has no third-party package dependencies. Clone it and open it in Xcode.
 
+## Download
+
+Download the latest release from:
+
+[https://github.com/zenkarsha/appiconset-maker/releases](https://github.com/zenkarsha/appiconset-maker/releases)
+
+After installing the app, macOS may block it on first launch. If that happens, go to `System Settings > Privacy & Security` and click `Open Anyway`.
+
 ## Run
 
 Using Xcode:
@@ -66,6 +74,20 @@ Command:
 
 ```bash
 ./scripts/install_local.sh
+```
+
+## Create DMG
+
+Build a Release app and create a drag-to-Applications DMG:
+
+```bash
+./scripts/create_dmg.sh
+```
+
+Output:
+
+```text
+dist/Appiconset Maker.dmg
 ```
 
 ## Project Structure
