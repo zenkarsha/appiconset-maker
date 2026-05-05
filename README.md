@@ -76,20 +76,6 @@ Command:
 ./scripts/install_local.sh
 ```
 
-## Create DMG
-
-Build a Release app and create a drag-to-Applications DMG:
-
-```bash
-./scripts/create_dmg.sh
-```
-
-Output:
-
-```text
-dist/Appiconset Maker.dmg
-```
-
 ## Project Structure
 
 ```text
